@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.webosinternals.service.accel
+Exec=/usr/bin/luna-helper 'luna://com.palm.vm/launch' '{"serviceName":"org.webosinternals.service.accel","className":"org.webosinternals.service.accel.AccelService"}'

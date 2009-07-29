@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AccelService" default="build" basedir=".">
+	<target name="clean">
+		<delete dir="org"/>
+		<delete file="org.webosinternals.service.accel.jar"/>
+	</target>
+	<target name="build">
+		<javac 
+			classpath="serviceframework.jar:lunaservice.jar:json.jar:Utils.jar"
+			srcdir="../../nova-cust-image-castle.rootfs/usr/lib/luna/java"
+			destdir="."
+		/>
+ 	</target>
+	<target name="jar" depends="build">
+		<jar
+			destfile="org.webosinternals.service.accel.jar"
+			basedir="."
+			includes="**/*.class"
+		/>
+    </target>
+</project>

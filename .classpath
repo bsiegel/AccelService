@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.apache.harmony.eclipse.jdt.launching.HyVMInstallType/harmony-jdk-782693"/>
+	<classpathentry kind="lib" path="C:/Projects/pre/nova-cust-image-castle.rootfs/usr/lib/luna/java/json.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/pre/nova-cust-image-castle.rootfs/usr/lib/luna/java/lunaservice.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/pre/nova-cust-image-castle.rootfs/usr/lib/luna/java/serviceframework.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/pre/nova-cust-image-castle.rootfs/usr/lib/luna/java/Utils.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

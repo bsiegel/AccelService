@@ -1,0 +1,9 @@
+The following jars are required to build this service:
+
+ * serviceframework.jar
+ * lunaservice.jar
+ * json.jar
+ * Utils.jar
+
+You can find them in /usr/lib/luna/java on an actual Palm Pre or in the
+VirtualBox image provided in the Palm Pre SDK. 
